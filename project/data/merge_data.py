@@ -3,14 +3,15 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent
 LGBT_RIGHTS = "lgbt_rights"
+CLEANED = "cleaned"
 
 CENSORSHIP_DF = pd.read_csv(DATA_DIR/LGBT_RIGHTS/"censorship-of-lgbt-issues.csv")
 SAME_SEX_MARRIAGE_DF = pd.read_csv(DATA_DIR/LGBT_RIGHTS/"marriage-same-sex-partners-equaldex.csv")
 SAME_SEX_LEGAL_DF = pd.read_csv(DATA_DIR/LGBT_RIGHTS/"same-sex-sexual-acts-legal-mignot.csv")
 GENDER_AFFIRMING_CARE_DF = pd.read_csv(DATA_DIR/LGBT_RIGHTS/"gender-affirming-care.csv")
 CHANGE_LEGAL_GENDER_DF = pd.read_csv(DATA_DIR/LGBT_RIGHTS/"right-to-change-legal-gender-equaldex.csv")
-EQUALITY_INDEX_DF = pd.read_csv(DATA_DIR/LGBT_RIGHTS/"cleaned_equaldex_equality_index.csv")
-COLONIZATION_DF = pd.read_csv(DATA_DIR/"european-overseas-colonies-and-their-colonizers.csv")
+EQUALITY_INDEX_DF = pd.read_csv(DATA_DIR/CLEANED/"cleaned_equaldex_equality_index.csv")
+COLONIZATION_DF = pd.read_csv(DATA_DIR/CLEANED/"colonizer_data_cleaned.csv")
 
 MERGE_VARIABLES = ["Entity", "Code", "Year"]
 
@@ -51,10 +52,6 @@ def create_lgbt_rights_and_colonial_history_df():
     """Combine the LGBT rights dataset with the colonial history one."""
     lgbt_rigths_df = create_lgbt_rights_df()
 
-    # Add columns for length of colonization and time since colonization
-    # Maybe length of colonization is the current year (2026) minus the first year where Colonizer == "No longer colonized"
-    # COLONIZATION_DF["time_since_colonization"]
-
     combined_df = pd.merge(
         lgbt_rigths_df,
         COLONIZATION_DF,
@@ -64,10 +61,34 @@ def create_lgbt_rights_and_colonial_history_df():
 
     return combined_df
 
+def create_equaldex_and_colonial_history_df():
+    """Combine the 2026 Equaldex dataset with the 'Longest colonizer' 
+    and 'Years colonized' columns"""
+
+    selected_colonizer_columns = (
+        COLONIZATION_DF[["Entity", "Years colonized", "Longest colonizer"]]
+        .drop_duplicates(subset="Entity")
+    )
+
+    combined_df = pd.merge(
+        EQUALITY_INDEX_DF,
+        selected_colonizer_columns,
+        left_on="Name",
+        right_on="Entity",
+        how="left"
+    )
+
+    clean_df = combined_df.drop(columns=["Entity"])
+
+    return clean_df
+
 
 if __name__ == "__main__":
     lgbt_rights_df = create_lgbt_rights_df()
-    lgbt_rights_df.to_csv("project/data/lgbt_rights/lgbt_rights_combined.csv")
+    lgbt_rights_df.to_csv(DATA_DIR/CLEANED/"lgbt_rights_combined.csv", index=False)
 
     combined_df = create_lgbt_rights_and_colonial_history_df()
-    combined_df.to_csv("project/data/all_data_combined.csv")
+    combined_df.to_csv(DATA_DIR/CLEANED/"all_data_combined.csv", index=False)
+
+    equaldex_and_colonizer_df = create_equaldex_and_colonial_history_df()
+    equaldex_and_colonizer_df.to_csv(DATA_DIR/CLEANED/"equaldex_with_colonial_history.csv", index=False)

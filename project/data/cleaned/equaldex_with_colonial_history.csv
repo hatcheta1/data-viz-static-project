@@ -1,0 +1,198 @@
+Region ID,Name,EI,EI Legal,EI PO,Rank,Years colonized,Longest colonizer
+IS,Iceland,93,96,90.0,1,,
+NO,Norway,89,90,87.0,2,,
+UY,Uruguay,87,100,74.0,3,204.0,Spain
+ES,Spain,83,100,67.0,4,0.0,
+DK,Denmark,82,94,69.0,5,,
+MT,Malta,80,100,61.0,6,,
+NZ,New Zealand,80,95,65.0,7,81.0,United Kingdom
+CL,Chile,80,100,60.0,8,278.0,Spain
+AD,Andorra,80,86,74.0,9,,
+DE,Germany,80,99,60.0,10,0.0,
+CU,Cuba,79,91,66.0,11,389.0,Spain
+AU,Australia,78,95,61.0,12,91.0,United Kingdom
+CA,Canada,78,94,61.0,13,312.0,United Kingdom
+BE,Belgium,78,95,61.0,14,0.0,
+PT,Portugal,77,94,60.0,15,0.0,
+NL,Netherlands,77,90,64.0,16,0.0,
+FI,Finland,76,87,66.0,17,,
+SE,Sweden,76,87,65.0,18,,
+AR,Argentina,75,89,61.0,19,240.0,Spain
+FR,France,74,90,58.0,20,0.0,
+BR,Brazil,74,92,56.0,21,290.0,Portugal
+AT,Austria,74,88,60.0,22,,
+CZ,Czechia,72,81,64.0,23,,
+MX,Mexico,71,86,57.0,24,301.0,Spain
+CO,Colombia,71,92,50.0,25,296.0,Spain
+NP,Nepal,71,74,68.0,26,0.0,
+CH,Switzerland,70,76,64.0,27,,
+IE,Ireland,70,81,59.0,28,,
+CR,Costa Rica,69,85,54.0,29,298.0,Spain
+LI,Liechtenstein,69,70,68.0,30,,
+CV,Cape Verde,68,56,80.0,31,514.0,Portugal
+LU,Luxembourg,67,82,52.0,32,,
+ZA,South Africa,67,77,57.0,33,262.0,Netherlands
+SM,San Marino,67,63,71.0,34,,
+IT,Italy,66,74,59.0,35,0.0,
+GR,Greece,66,91,40.0,36,,
+US,United States,65,75,56.0,37,177.0,United Kingdom
+TH,Thailand,65,63,67.0,38,0.0,
+SI,Slovenia,64,80,48.0,39,,
+GB,United Kingdom,64,74,55.0,40,0.0,
+EC,Ecuador,64,86,42.0,41,295.0,Spain
+BO,Bolivia,63,87,38.0,42,267.0,Spain
+IL,Israel,62,74,51.0,43,26.0,United Kingdom
+SC,Seychelles,61,55,66.0,44,202.0,United Kingdom
+TW,Taiwan,60,69,51.0,45,0.0,
+EE,Estonia,58,72,44.0,46,,
+HR,Croatia,57,81,33.0,47,,
+CN,China,56,47,66.0,48,0.0,
+ME,Montenegro,56,76,35.0,49,,
+BB,Barbados,55,40,71.0,50,340.0,United Kingdom
+MC,Monaco,55,59,51.0,51,,
+TL,Timor-Leste,55,50,60.0,52,,
+MU,Mauritius,54,57,52.0,53,254.0,United Kingdom
+PH,Philippines,54,49,59.0,54,334.0,Spain
+JP,Japan,53,57,50.0,55,0.0,
+PE,Peru,53,62,44.0,56,292.0,Spain
+BW,Botswana,53,55,51.0,57,72.0,United Kingdom
+VE,Venezuela,53,50,56.0,58,266.0,Spain
+FJ,Fiji,52,52,,59,97.0,United Kingdom
+HU,Hungary,52,64,40.0,60,,
+VN,Vietnam,52,51,53.0,61,68.0,France
+IN,India,52,50,53.0,62,91.0,United Kingdom
+CY,Cyprus,51,66,36.0,63,47.0,United Kingdom
+BA,Bosnia and Herzegovina,51,65,38.0,64,,
+BT,Bhutan,51,52,50.0,65,40.0,United Kingdom
+PL,Poland,51,59,43.0,66,,
+RS,Serbia,51,68,33.0,67,,
+BZ,Belize,50,56,44.0,68,458.0,Spain
+MK,North Macedonia,49,66,33.0,69,,
+UA,Ukraine,49,59,39.0,70,,
+MZ,Mozambique,48,50,47.0,71,91.0,Portugal
+XK,Kosovo,48,67,30.0,72,,
+MH,Marshall Islands,48,48,,73,30.0,Germany
+AL,Albania,48,68,28.0,74,,
+KH,Cambodia,48,45,51.0,75,70.0,France
+LT,Lithuania,47,67,28.0,76,,
+LV,Latvia,47,60,35.0,77,,
+RO,Romania,46,60,33.0,78,,
+LA,Laos,46,43,50.0,79,62.0,France
+SK,Slovakia,46,58,33.0,80,,
+HN,Honduras,46,58,33.0,81,298.0,Spain
+ST,Sao Tome and Principe,45,47,44.0,82,454.0,Portugal
+LS,Lesotho,44,56,32.0,83,83.0,United Kingdom
+BG,Bulgaria,44,62,27.0,84,,
+FM,Federated States of Micronesia,44,44,,85,,
+SG,Singapore,44,40,49.0,86,138.0,United Kingdom
+NI,Nicaragua,44,48,40.0,87,298.0,Spain
+KR,South Korea,43,48,39.0,88,0.0,
+SV,El Salvador,43,50,35.0,89,294.0,Spain
+AO,Angola,42,50,35.0,90,400.0,Portugal
+,Namibia,42,51,33.0,91,36.0,Germany
+SR,Suriname,41,60,23.0,92,308.0,Netherlands
+NR,Nauru,40,40,,93,81.0,United Kingdom
+PA,Panama,40,45,34.0,94,303.0,Spain
+TJ,Tajikistan,40,40,,95,0.0,
+VU,Vanuatu,39,45,34.0,96,94.0,France
+GQ,Equatorial Guinea,39,39,,97,143.0,Spain
+GY,Guyana,39,24,53.0,98,387.0,Netherlands
+AG,Antigua and Barbuda,39,60,17.0,99,350.0,United Kingdom
+MN,Mongolia,39,60,17.0,100,0.0,
+GW,Guinea-Bissau,38,40,37.0,101,96.0,Portugal
+DO,Dominican Republic,37,42,33.0,102,371.0,Spain
+BH,Bahrain,37,32,42.0,103,111.0,United Kingdom
+KP,North Korea,37,37,,104,0.0,
+MD,Moldova,36,65,8.0,105,,
+GT,Guatemala,36,40,31.0,106,298.0,Spain
+RW,Rwanda,35,38,32.0,107,58.0,Belgium
+PY,Paraguay,35,38,31.0,108,275.0,Spain
+LC,Saint Lucia,35,53,17.0,109,330.0,United Kingdom
+PK,Pakistan,34,36,31.0,110,91.0,United Kingdom
+KN,Saint Kitts and Nevis,34,52,15.0,111,361.0,United Kingdom
+VA,Vatican City,33,33,,112,,
+TR,Turkey,33,34,33.0,113,0.0,
+DJ,Djibouti,33,33,,114,94.0,France
+DM,Dominica,32,50,14.0,115,306.0,United Kingdom
+GE,Georgia,31,50,13.0,116,0.0,
+BS,Bahamas,30,44,16.0,117,191.0,United Kingdom
+MG,Madagascar,29,37,22.0,118,66.0,France
+CF,Central African Republic,29,29,,119,55.0,France
+HT,Haiti,29,46,11.0,120,140.0,France
+PW,Palau,29,41,16.0,121,30.0,Germany
+BJ,Benin,29,41,16.0,122,67.0,France
+CG,Republic of the Congo,28,40,17.0,123,,
+LK,Sri Lanka,28,21,34.0,124,189.0,United Kingdom
+RU,Russia,27,35,19.0,125,,
+TT,Trinidad and Tobago,27,26,27.0,126,371.0,Spain
+KI,Kiribati,26,26,,127,88.0,United Kingdom
+MM,Myanmar,26,15,38.0,128,63.0,United Kingdom
+BY,Belarus,26,35,16.0,129,,
+AM,Armenia,26,46,5.0,130,0.0,
+BD,Bangladesh,26,18,33.0,131,91.0,United Kingdom
+PG,Papua New Guinea,25,25,,132,37.0,United Kingdom
+GD,Grenada,25,33,17.0,133,325.0,United Kingdom
+GA,Gabon,24,35,13.0,134,75.0,France
+KE,Kenya,24,30,19.0,135,69.0,United Kingdom
+CI,Côte d’Ivoire,23,32,14.0,136,,
+SZ,Eswatini,23,19,27.0,137,66.0,United Kingdom
+TV,Tuvalu,23,23,,138,88.0,United Kingdom
+KZ,Kazakhstan,23,35,11.0,139,0.0,
+KG,Kyrgyzstan,22,34,10.0,140,0.0,
+SB,Solomon Islands,22,22,,141,94.0,United Kingdom
+CD,Democratic Republic of the Congo,22,36,8.0,142,,
+JM,Jamaica,22,26,18.0,143,454.0,United Kingdom
+AZ,Azerbaijan,19,34,5.0,144,0.0,
+UZ,Uzbekistan,19,20,18.0,145,0.0,
+VC,Saint Vincent and the Grenadines,19,30,8.0,146,218.0,United Kingdom
+KM,Comoros,19,18,19.0,147,62.0,France
+PS,Palestine,18,28,8.0,148,,
+SY,Syria,18,9,27.0,149,24.0,France
+TD,Chad,18,21,14.0,150,51.0,France
+TM,Turkmenistan,17,17,,151,0.0,
+WS,Samoa,17,17,,152,21.0,Germany
+LR,Liberia,17,25,9.0,153,0.0,
+MY,Malaysia,17,7,27.0,154,207.0,Portugal
+GN,Guinea,17,19,14.0,155,78.0,France
+SL,Sierra Leone,16,25,6.0,156,66.0,United Kingdom
+JO,Jordan,15,24,6.0,157,24.0,United Kingdom
+TZ,Tanzania,15,16,14.0,158,73.0,United Kingdom
+GH,Ghana,15,13,18.0,159,426.0,Portugal
+LB,Lebanon,14,13,15.0,160,24.0,France
+TO,Tonga,14,14,,161,71.0,United Kingdom
+TN,Tunisia,14,12,15.0,162,76.0,France
+SD,Sudan,13,8,19.0,163,59.0,United Kingdom
+MA,Morocco,13,12,15.0,164,92.0,Spain
+LY,Libya,13,8,19.0,165,38.0,Italy
+SA,Saudi Arabia,13,5,22.0,166,0.0,
+ZW,Zimbabwe,13,16,10.0,167,58.0,United Kingdom
+DZ,Algeria,13,7,19.0,168,115.0,France
+AE,United Arab Emirates,12,2,23.0,169,80.0,United Kingdom
+IQ,Iraq,12,3,22.0,170,13.0,United Kingdom
+ET,Ethiopia,12,12,13.0,171,0.0,
+TG,Togo,12,12,12.0,172,71.0,France
+ID,Indonesia,12,12,11.0,173,340.0,Netherlands
+CM,Cameroon,11,11,11.0,174,72.0,France
+SS,South Sudan,11,11,,175,0.0,
+ER,Eritrea,11,11,,176,62.0,Italy
+NG,Nigeria,11,7,15.0,177,62.0,United Kingdom
+BI,Burundi,11,11,10.0,178,64.0,Belgium
+UG,Uganda,11,3,18.0,179,69.0,United Kingdom
+NE,Niger,10,9,12.0,180,39.0,France
+YE,Yemen,10,4,17.0,181,9.0,United Kingdom
+BF,Burkina Faso,10,10,10.0,182,66.0,France
+MR,Mauritania,10,4,16.0,183,58.0,France
+EG,Egypt,10,4,15.0,184,54.0,United Kingdom
+ML,Mali,10,10,9.0,185,57.0,France
+MW,Malawi,9,13,5.0,186,74.0,United Kingdom
+ZM,Zambia,9,10,8.0,187,42.0,United Kingdom
+MV,Maldives,8,8,8.0,188,79.0,United Kingdom
+QA,Qatar,7,6,9.0,189,56.0,United Kingdom
+KW,Kuwait,6,7,6.0,190,48.0,United Kingdom
+IR,Iran,6,9,3.0,191,0.0,
+SN,Senegal,5,7,3.0,192,232.0,United Kingdom
+OM,Oman,4,4,,193,0.0,
+GM,Gambia,4,5,4.0,194,78.0,United Kingdom
+SO,Somalia,4,4,,195,73.0,United Kingdom
+BN,Brunei,4,4,,196,97.0,United Kingdom
+AF,Afghanistan,1,0,2.0,197,0.0,
