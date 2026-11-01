@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 LGBT_RIGHTS = "lgbt_rights"
 NOT_COLONIZED = ["Not colonized", "No longer colonized", "Colonizer"]
 
@@ -34,7 +34,7 @@ def add_length_of_colonization_column(df):
 
 def add_longest_colonizer_column(df):
     """Add a column that names a country's longest colonizer"""
-    country_named = df[~df["Colonizer"].isin(NOT_COLONIZED + ["Multiple colonizers"])]
+    country_named = df[~df["Colonizer"].isin(NOT_COLONIZED)]
 
     counts = (country_named.groupby(["Entity", "Colonizer"]).size()
                 .reset_index(name="n")
@@ -42,7 +42,7 @@ def add_longest_colonizer_column(df):
 
     longest = counts.drop_duplicates("Entity").set_index("Entity")["Colonizer"]
 
-    df["Longest colonizer"] = df["Entity"].map(longest).fillna("None")
+    df["Longest colonizer"] = df["Entity"].map(longest).fillna("Not colonized")
 
     return df
 

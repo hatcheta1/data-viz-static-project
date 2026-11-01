@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 LGBT_RIGHTS = "lgbt_rights"
 CLEANED = "cleaned"
 
