@@ -48,13 +48,30 @@ def create_lgbt_rights_df():
 
     return lgbt_rights_df
 
+def add_continent_to_colonial_history_df():
+    """Add a continents column to the colonial history data"""
+
+    continents_df = pd.read_csv(DATA_DIR/"countries_by_continents.csv")
+
+    combined_df = pd.merge(
+        continents_df,
+        COLONIZATION_DF,
+        left_on="Country",
+        right_on="Entity",
+        how="outer",
+    )
+
+    clean_df = combined_df.drop(columns=["Country"])
+    return clean_df
+
 def create_lgbt_rights_and_colonial_history_df():
     """Combine the LGBT rights dataset with the colonial history one."""
     lgbt_rigths_df = create_lgbt_rights_df()
+    colonial_history_df = add_continent_to_colonial_history_df()
 
     combined_df = pd.merge(
         lgbt_rigths_df,
-        COLONIZATION_DF,
+        colonial_history_df,
         on=MERGE_VARIABLES,
         how="outer"
     )
@@ -65,8 +82,9 @@ def create_equaldex_and_colonial_history_df():
     """Combine the 2026 Equaldex dataset with the 'Longest colonizer' 
     and 'Years colonized' columns"""
 
+    colonial_history_df = add_continent_to_colonial_history_df()
     selected_colonizer_columns = (
-        COLONIZATION_DF[["Entity", "Years colonized", "Longest colonizer"]]
+        colonial_history_df[["Entity", "Years colonized", "Longest colonizer", "Continent"]]
         .drop_duplicates(subset="Entity")
     )
 
